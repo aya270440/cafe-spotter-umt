@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Spotter @UMT</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Manifest for PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#69c77a">
+
+  <style>
+    #map { height: 90vh; width: 100%; }
+  </style>
+</head>
+<body>
+  <h2>Café Spotter @UMT</h2>
+  <div id="map"></div>
+
+  <button id="goToFavorites" style="position: absolute; top: 20px; right: 20px; background-color: #69c77a; color: white; padding: 10px 15px; border-radius: 8px; border: none; font-weight: bold; cursor: pointer;">
+  ⭐ Favorites
+</button>
+
+  <!-- JS Scripts -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+      .then(() => console.log("✅ Service Worker registered"))
+      .catch(error => console.error("❌ Service Worker registration failed:", error));
+  }
+</script>
+
+</body>
+</html>

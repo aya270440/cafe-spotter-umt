@@ -1,0 +1,35 @@
+[
+  { 
+    "name": "HE & SHE",
+    "lat": 5.40737,
+    "lng": 103.0883,
+    "img": "heandsheumt.jpg",
+    "menu": ["Nasi Lemak", "Kopi O", "Roti Bakar"],
+    "hours": "8:00 AM – 6:00 PM"
+  },
+  {
+    "name": "BSCOOP",
+    "lat": 5.40648,
+    "lng": 103.08924,
+    "img": "bscoop.jpg",
+    "menu": ["Ice Cream", "Waffles", "Milk Tea"],
+    "hours": "10:00 AM – 10:00 PM"
+  },
+  {
+    "name": "CU MART",
+    "lat": 5.406455,
+    "lng": 103.08929,
+    "img": "cumartumt.jpg",
+    "menu": ["Snacks", "Instant Noodles", "Coffee"],
+    "hours": "7:00 AM – 12:00 AM"
+  },
+  {
+    "name": "ZUS Coffee UMT",
+    "lat": 5.40676,
+    "lng": 103.08921,
+    "img": "zuscoffeeumt.jpg",
+    "address": "Lot 021, Aras Bawah, Kompleks Siswa, Universiti Malaysia Terengganu, 21030 Kuala Terengganu, Terengganu",
+    "menu": ["Americano", "Latte", "Pastries"],
+    "hours": "9:00 AM – 9:00 PM"
+  }
+]
